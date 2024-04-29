@@ -83,14 +83,104 @@ div.banner_background h3 {
 
 section#about{
     width: 100%;
-    height: 50%;
+    height: 70vh;
 }
 
 section#about div.content {
     background-color: var(--pallete_cyan);
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#about div.content section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
 }
 
 .texto {
     font-size: 3em;
+    width: 70%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.texto span {
+    font-weight: bold;
+}
+
+section#about img {
+    width: 100%;
+    height: 30%;
+}
+
+/* Estilização da seção Produtos */
+
+section#produtos {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#produtos div.title {
+    width: 100%;
+    height: 12vh;
+    background-color: var(--pallete_pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8vh;
+}
+
+section#produtos div.title h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+div.product_wraper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div.card_produto .img_1 {
+    background-image: url(../images/imac.jpg);
+}
+
+div.card_produto .img_2 {
+    background-image: url(../images/iphone13.png);
+}
+
+div.card_produto .img_3 {
+    background-image: url(../images/macOS11.jpg);
+} */
+
+div.card_produto .img_1, div.card_produto .img_2, div.card_produto .img_3 {
+    width: 15vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+} 
+
+div.card_produto h3 {
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    bottom: 0;
 }
