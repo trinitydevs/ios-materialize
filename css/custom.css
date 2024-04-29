@@ -16,18 +16,26 @@ body {
 
 header{
     background-color: #fff;
-    height: 13vh;
+    height: 18vh;
 }
 
 nav{
-    background-color: rgba(0,0,0,0);
+    background-color: #fff;
     height: 100%;
     width: 100%;
     border: none;
 }
 
-div.nav-wrapper {
-    width: 100%;
+div.nav-wrapper a.brand-logo {
+    height: 10vh;
+    width: 10vh;
+    background-image: url(../images/logo-apple.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+div.nav-wrapper a.brand-logo img {
     height: 100%;
 }
 
@@ -53,6 +61,8 @@ div.banner_background{
     width: 85%;
     height: 80%;
     border-radius: 20px;
+    padding-top: 5%;
+    padding-left: 7%;
 }
 
 div.banner_background h1 {
