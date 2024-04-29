@@ -1,0 +1,7 @@
+/* Importação da font family do Materialize no Google Fonts */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/* Importação do CSS do materialize */
+@import url(materialize.min.css);
+/* Importação do CSS customizado, permitindo alteração dos padrões do materialize */
+@import url(style-class.css);
+@import url(style-id.css);

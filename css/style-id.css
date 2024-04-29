@@ -1,0 +1,70 @@
+*{
+    border: solid black 1px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+}
+
+#logo-apple{
+    width: 40px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1px;
+    gap: 5px;
+}
+
+#Imagem1{
+    display: flex;
+    justify-content: center;
+    background: url("/Imagens/background.jpg");
+    width: 100%;
+    height: 60vh;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-top{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+#form-main{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-aside{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    gap: 5%;
+    text-wrap: nowrap;
+}
