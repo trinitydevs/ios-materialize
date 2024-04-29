@@ -149,38 +149,3 @@ section#produtos div.title h1 {
     text-align: center;
     font-weight: 500;
 }
-
-div.product_wraper{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-/* div.card_produto .img_1 {
-    background-image: url(../images/imac.jpg);
-}
-
-div.card_produto .img_2 {
-    background-image: url(../images/iphone13.png);
-}
-
-div.card_produto .img_3 {
-    background-image: url(../images/macOS11.jpg);
-} */
-
-div.card_produto .img_1, div.card_produto .img_2, div.card_produto .img_3 {
-    width: 15vw;
-    height: 15vw;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid black;
-} 
-
-div.card_produto h3 {
-    text-align: center;
-    border: 1px solid black;
-    position: relative;
-    bottom: 0;
-}
