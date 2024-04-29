@@ -1,9 +1,9 @@
 :root{
     --pallete_black: #2C2521;
-    --pallete_pink: #FF54C7;
+    --pallete_pink: #FF547D;
     --pallete_red: #E80002;
     --pallete_orange: #FE6800;
-    --pallete_cyan: #00ECFB;
+    --pallete_cyan: #0083FB;
     --pallete_gray: #928075;
     --body_background: rgba(217, 217, 217, 0.24);
 }
@@ -16,31 +16,34 @@ body {
 
 header{
     background-color: #fff;
-    height: 18vh;
+    height: 15vh;
 }
 
 nav{
     background-color: #fff;
-    height: 100%;
-    width: 100%;
+    height: 14vh;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 1.5%;
     border: none;
 }
 
 div.nav-wrapper a.brand-logo {
-    height: 10vh;
-    width: 10vh;
+    height: 7vh;
+    width: 7vh;
     background-image: url(../images/logo-apple.png);
     background-size:contain;
     background-repeat: no-repeat;
-    
+    margin-left: 2%;
 }
 
-div.nav-wrapper a.brand-logo img {
-    height: 100%;
+div.nav-wrapper a i {
+    color: #000;
 }
 
 div.nav-wrapper ul li a {
-    color: var(--pallete_black)
+    color: var(--pallete_black);
+    font-size: 1.9rem;
 }
 
 /* Estilização do banner inicial */
@@ -74,4 +77,20 @@ div.banner_background h1 {
 div.banner_background h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+}
+
+/* Estilização da Sobre/About */
+
+section#about{
+    width: 100%;
+    height: 50%;
+}
+
+section#about div.content {
+    background-color: var(--pallete_cyan);
+    width: 100%;
+}
+
+.texto {
+    font-size: 3em;
 }
