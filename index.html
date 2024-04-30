@@ -20,16 +20,30 @@
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#produtos">Produtos</a></li>
+                <li>
+                    <a id="link_produto" href="#about">
+                        <font color="#FF54C7">P</font>
+                        <font color="#E80002">ro</font>
+                        <font color="#FE6800">d</font>
+                        <font color="#2C2521">u</font>
+                        <font color="#0083FB">to</font>
+                        <font color="#2C2521">s</font>
+                    </a>
+                </li>
               </ul>
             </div>
         </nav>
         
         <ul class="sidenav" id="mobile-demo">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#produtos">Produtos</a></li>
+            <li><a id="link_produto" href="#about">
+                <font color="#FF54C7">P</font>
+                <font color="#E80002">ro</font>
+                <font color="#FE6800">d</font>
+                <font color="#2C2521">u</font>
+                <font color="#0083FB">to</font>
+                <font color="#2C2521">s</font>
+            </a></li>
         </ul>
         
     </header>
@@ -70,84 +84,67 @@
 
             <div class="produtos_area">
 
-                
+                <div class="card_produto">
+                    <img src="./images/imac.jpg" alt="">
+                    <h3>iMac</h3>
+                </div>
+                <div class="card_produto">
+                    <img src="./images/iphone13.png" alt="">
+                    <h3>iPhone</h3>
+                </div>
+                <div class="card_produto">
+                    <img src="./images/macos.png" alt="">
+                    <h3>macBook</h3>
+                </div>
 
             </div>
             
 
         </section>
 
+        <!-- Seção de contato -->
+        <section id="contato">
 
-
-
-
-
-        <section>
-            <div class="images">
-                <div>
-                    <p>BgGray</p>
-                    <h1>Image</h1>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="images">
-                <div>
-                    <p>BgGray</p>
-                    <h1>Image</h1>
-                </div>
-            </div>
-        </section>
-        <section>
             <div id="form">
-                <p>BgOrange</p>
-                <div>
-                    <p>Formulário</p>
-                    <div id="form-top">
-                        <p>icon</p>
-                        <p>contate-nos</p>
-                    </div>
-                    <div id="form-main">
-                        <input type="text" placeholder="Nome">
-                        <input type="email" placeholder="Email">
-                        <textarea name="" id="" cols="30" rows="10">Assunto...</textarea>
-                    </div>
-                    <div id="form-bottom">
-                        <button>Enviar</button>
-                    </div>
+
+                <div class="title">
+                    <div></div>
+                    <h3>Contate-nos!</h3>
                 </div>
-                <div>
-                    <p>Image</p>
-                </div>
+                <input type="text" name="txtNome" id="txtNome" placeholder="Nome">
+                <input type="email" name="txtEmail" id="txtEmail" placeholder="Email">
+                <textarea name="txtAssunto" id="txtAssunto" cols="30" rows="10" placeholder="Assunto..."></textarea>
+                <button type="submit">Enviar</button>
             </div>
-            </div>
+
+            <img src="./images/widgets-removebg-preview.png" alt="">
+
         </section>
+
+
     </main>
-    <hr>
     <footer>
-        <section id="footer">
-            <div>
-                <p>Applogo</p>
+        <div class="logomarca">
+            
+        </div>
+        <div id="footer-aside">
+            <div class="footer_link">
+                <ul>
+                    <li><a href="">Documentação</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Redes Sociais</a></li>
+                </ul>
             </div>
-            <div id="footer-aside">
-                <div>
-                    <ul>
-                        <li><a href="">Documentação</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">Redes Sociais</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="">Contatos</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">Sobre nós</a></li>
-                    </ul>
-                </div>
+            <div class="footer_link">
+                <ul>
+                    <li><a href="">Contatos</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Sobre nós</a></li>
+                </ul>
             </div>
-        </section>
+        </div>
     </footer>
 
     <!-- Importação do script para funções do materialize -->

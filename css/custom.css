@@ -14,6 +14,17 @@ body {
 
 /* Estilização da navbar */
 
+a#link_produto{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+font {
+    margin: 0;
+}
+
 header{
     background-color: #fff;
     height: 15vh;
@@ -25,6 +36,7 @@ nav{
     width: 90%;
     margin-left: 5%;
     padding-top: 1.5%;
+    padding-right: 5%;
     border: none;
 }
 
@@ -148,4 +160,132 @@ section#produtos div.title h1 {
     color: #fff;
     text-align: center;
     font-weight: 500;
+}
+
+div.card_produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body_background);
+    width: 30vw;
+    height: 30vw;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+}
+
+div.card_produto img {
+    width: 80%;
+    max-height: fit-content;
+}
+
+/* Estilização da seção de contato */
+
+section#contato {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(254, 104, 0, 0.45),rgba(232, 0, 2, 0.45));
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+div#form {
+    width: 25%;
+    height: 75%;
+    background-color: #FBFBFB;
+    border-radius: 20px;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#form div.title {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div#form div.title div {
+    width: 1vw;
+    height: 1vw;
+    background-color: var(--pallete_pink);
+    border-radius: 99px;
+}
+
+div#form div.title h3 {
+    font-family: 'Inter', sans-serif;
+    color: var(--pallete_cyan);
+    text-transform: uppercase;
+    margin-left: 1vw;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+div#form input, div#form textarea {
+    font-style: italic;
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    font-size: 1.2rem;
+}
+
+div#form textarea{
+    max-height: 40%;
+    min-height: 40%;
+    height: 40%;
+    border-radius: 5px;
+    padding: 5%;
+    background-color: #F1ECEC;
+}
+
+div#form button {
+    background: linear-gradient(to right,#0083FB,#53ABFD);
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    width: 20%;
+    height: 7%;
+    border: none;
+    margin-top: 2vh;
+    margin-left: 50%;
+}
+
+section#contato img {
+    height: 80%;
+    position: relative;
+    bottom: -7vh;
+    left: -6vw;
+}
+
+/* Estilização do Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    /* padding: 0 5% 5% 5%; */
+    padding-top: 5%;
+    margin: 0 5% 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--pallete_black);
+}
+
+footer div.logomarca {
+    background-image: url(../images/logooo.png);
+    height: 10vh;
+    width: 10vw;
+    background-size: contain;
+}
+
+div.footer_link ul li a {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
