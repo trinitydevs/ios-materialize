@@ -56,6 +56,12 @@
     margin-right: 5%;
 }
 
+textarea#txtAssunto{
+    outline: none;
+    border: none;
+
+}
+
 #footer{
     display: flex;
     flex-direction: row;
@@ -64,6 +70,7 @@
 #footer-aside{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     margin-left: 30%;
     gap: 5%;
     text-wrap: nowrap;
