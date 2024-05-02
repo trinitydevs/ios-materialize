@@ -1,7 +1,6 @@
 ul{
     list-style: none;
     padding-left: 0px;
-
 }
 
 .center{
@@ -17,4 +16,13 @@ ul{
 .images{
     display: flex;
     justify-content: center;
+}
+
+.produtos_area{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
